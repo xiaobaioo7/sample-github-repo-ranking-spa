@@ -1,0 +1,68 @@
+html {
+  background: #fff;
+  color: #333;
+}
+
+body {
+  font-family: Arial,x-locale-body,sans-serif;
+  font-size: 1rem;
+}
+
+a, article, body, div, h1, h2, h3, h4, h5, h6, header, html, img, mark, nav, p, span, strong, ul {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+a {
+  color: #3d7e9a;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.app-wrapper > header {
+  padding: 10px 40px;
+  background-color: #263238;
+}
+
+.app-wrapper > main {
+  padding: 10px 40px;
+  margin: 0 auto;
+}
+
+header.main-header ul {
+  display: flex;
+  align-items: center;
+}
+
+header.main-header ul li a {
+  color: #808080;
+  display: block;
+  line-height: 3rem;
+}
+
+header.main-header ul li a:hover {
+  color: #fff;
+}
+
+li.nav-item-home {
+  flex-grow: 1;
+}
+
+header.main-header ul li.nav-item-home a {
+  color: #fff;
+}
+
+.image-wrapper img {
+  display: block;
+  width: 100%;
+}
+
+@media (min-width: 1600px) {
+  .app-wrapper > main {
+      max-width: 1400px;
+  }
+}
